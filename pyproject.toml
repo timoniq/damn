@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "damnlang"
+version = "0.1.0"
+description = "Damn"
+authors = ["timoniq"]
+license = "MIT"
+readme = "README.md"
+packages = [{"include" = "damn"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
