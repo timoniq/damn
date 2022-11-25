@@ -37,7 +37,7 @@ calculator = Calculator(["DEMO"])
 
 async def main():
     def_set = DefinitionSet.from_expressions([
-        "10 > a > 20", 
+        "10 < a < 20", 
         "(v1, v2) in [(1, 2), (4, 8)]"
     ])
     data = def_set.get_data()

@@ -6,7 +6,7 @@ import random
 
 
 class DomainDefinition(Definition):
-    pattern = re.compile(r"(.+) > (\w+) > (.+)")
+    pattern = re.compile(r"(.+) < (\w+) < (.+)")
 
     def __init__(
         self,
